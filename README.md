@@ -1,0 +1,2 @@
+# Authentificator
+ Minecraft authentication plugin

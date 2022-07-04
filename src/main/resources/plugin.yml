@@ -1,0 +1,26 @@
+name: Authentificator
+description: Minecraft authentication plugin
+version: 1.0
+author: Aiwozyt
+main: fr.aiwoz.authentificator.Main
+commands:
+  login:
+    permission: authentificator.login
+  register:
+    permission: authentificator.register
+  changepassword:
+    aliases: changepw
+    permission: authentificator.changepw
+permissions:
+  authentificator.login:
+    description: Autoriser /login
+    default: op
+  authentificator.register:
+    description: Autoriser /register
+    default: op
+  authentificator.changepw:
+    description: Autoriser /changepw
+    default: op
+  authentificator.bypass:
+    description: Permet d'accéder au serveur sans se connecter.
+    default: false

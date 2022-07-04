@@ -1,0 +1,30 @@
+# If true, players who are OP should not log in.
+op-bypass: true
+
+# Sends a message when a player joins the server.
+join-message:
+  enable: true
+  message: "Welcome to the server !"
+
+# If the plugin has stop
+plugin-stop:
+  # You will only be kicked out if you are not logged in.
+  enable: true
+  message: "You are kicked from the server because the plugin has stopped."
+
+# Plugin messages
+login-message: "&c/login password."
+register-message: "&c/register password password."
+already-logged: "&6You are already connected."
+already-registered: "&6You are already registered."
+register-error: "&2/register password password"
+successful-register: "&bYou are registered."
+different-password: "&4Passwords do not match."
+login-error: "&3/login password"
+not-found: "&5You must register."
+sucessful-login: "&bYou are connected."
+incorrect-password: "&4The password is incorrect."
+changepw-error: "&2/changepw password new_password new_password"
+new-different-password: "&eNew passwords do not match."
+incorrect-currently-password: "&4The current password is incorrect"
+successful-changed-password: "&bThe password has been successfully changed."
